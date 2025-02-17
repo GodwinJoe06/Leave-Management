@@ -1,0 +1,71 @@
+/* Admin.css */
+.admin-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.admin-container h2 {
+    text-align: center;
+    color: #333;
+}
+
+.leave-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.leave-list li {
+    padding: 15px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #fff;
+    transition: box-shadow 0.3s;
+}
+
+.leave-list li:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.leave-list h2 {
+    margin: 0 0 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+button {
+    padding: 8px 12px;
+    margin-right: 5px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+button:focus {
+    outline: none;
+}
+
+button.reject {
+    background-color: #e74c3c; /* Red */
+    color: white;
+}
+
+button.accept {
+    background-color: #2ecc71; /* Green */
+    color: white;
+}
+
+.error {
+    color: #e74c3c; /* Red */
+    text-align: center;
+    font-weight: bold;
+}
